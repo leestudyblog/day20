@@ -25,10 +25,8 @@ public class MainClass03 {
 		case 1 : 
 			System.out.println("name input");
 			name = sc.next();
-			
 			Member03 m =new Member03();
 			m.setName(name);
-			
 			list.add(m);
 			System.out.println("저장 완");
 			break;
